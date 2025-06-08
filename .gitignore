@@ -2,10 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+upload_to_hf.py
+cosae_hub/
 
 # C extensions
 *.so
-
+.hf
 # Distribution / packaging
 .Python
 build/
@@ -192,3 +194,5 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+model/
