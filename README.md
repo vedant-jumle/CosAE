@@ -1,5 +1,6 @@
 # CosAE: Convolutional Harmonic Autoencoder
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-cosae-blue?logo=Huggingface)](https://huggingface.co/vedant-jumle/cosae) [![Paper](https://img.shields.io/badge/Paper-Sifei%20et%20al.%202024-blue?logo=google-scholar)](https://research.nvidia.com/labs/amri/publication/sifei2024cosae/)
+
 CosAE is a PyTorch implementation of the Convolutional Harmonic Autoencoder (CosAE). It encodes images into learnable harmonic representations (amplitudes and phases), constructs spatial cosine bases via a Harmonic Construction Module, and decodes back to RGB images. This repository provides the core model code, a Jupyter notebook for training and evaluation, and pretrained weights in SafeTensors format.
 
 ## Features
